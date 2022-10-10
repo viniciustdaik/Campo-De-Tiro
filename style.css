@@ -1,10 +1,31 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
-  overflox-x: hidden;
+  overflow-x: hidden;
+  overflow-block: hidden;
   overflow-y: hidden;
 }
+
 canvas {
   display: block;
-  
+
+}
+
+.shootbutton {
+  width: 70px;
+  height: 70px;
+  border-radius: 25px;
+  background-image: url('./gun1.png');
+  background-color: #a1c913;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 10px;
+  display: inline-block;
+  cursor: pointer;
+  /* Safari */
+  -webkit-transition-duration: 0.0s;
+  transition-duration: 0.0s;
+  outline: none;
 }
