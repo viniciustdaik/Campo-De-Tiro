@@ -187,6 +187,7 @@ function shootBullet() {
   bullet.y = gun.y - 20;
   bullet.addImage(bulletImg);
   bullet.scale = 0.12;
+  bullet.depth = gun.depth - 1;
   bullet.velocityX = 7;
   bullet.lifetime = 450;
   bulletGroup.add(bullet);
